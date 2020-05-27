@@ -1,24 +1,8 @@
-# README
+# Assignment from the Odin Project
+https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+---
 
-Things you may want to cover:
+##Project 2: Using a Third Party API
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Remember way back in the warm-up when you played with the Flickr API? Now it’s time for you to actually use it. Huzzah! You’ll create a simple photo widget that allows you to display photos from your Flickr feed (or someone else’s). We’ll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
