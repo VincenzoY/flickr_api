@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Images</h1>
+
+<%= button_to "Find Another User's Images", action: "index"%>
+
+<% @photos.each do |photo| %>
+    <%= image_tag("https://farm#{photo["farm"]}.staticflickr.com/#{photo["server"]}/#{photo["id"]}_#{photo["secret"]}.jpg") %>
+<% end %>

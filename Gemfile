@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Flickr API
 gem 'flickr', '~> 2.0', '>= 2.0.2'
+
+# DotENV for ENV variables
+gem 'dotenv-rails', groups: [:development, :test]
